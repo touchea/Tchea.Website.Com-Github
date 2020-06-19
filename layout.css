@@ -18,6 +18,7 @@
 /* Grid Columns Styles */
 div[class ^= "col-"]{
    float: left;
+   
 }
 
 div.col-1-1{width: 90%;}

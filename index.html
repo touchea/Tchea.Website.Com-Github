@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <!--#6,#3
-   Author: Tou Chea 
-   Filename: index.html
+    <head>
+        <!--#6
+       Author: Tou Chea
+       Filename: gallery.html
+       -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="layout.css">
+    </head>
     
-   --#5 This is my link.
-    https://hunterxxkyo.github.io/kjang_final_project/index.html
-   -->
-    <meta charset="utf-8" />
-    <title>By Tou Chea</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--#4-->
-    <link rel="stylesheet" href="index_styles.css">
-    <link rel="stylesheet" href="layout.css">
-</head>
-
+    <body>
 <body>
     <!--I try to do a side bar-->
-    <div class="navbar">
-        <a href="index.html" class="navbar_link">
-            <span class="material-icons">home</span>Home
-        </a>
-        <a href="about.html" class="navbar_link">
-            <span class="material-icons">person</span>About
-        </a>
-        <a href="gallery.html" class="navbar_link">
-            <span class="material-icons">photo_library</span>Gallery
-        </a>
-        <a href="video_class.html" class="navbar_link">
-            <span class="material-icons">date_range</span>Video class
-        
+    <header>
+        <a href="index.html"><img src="img/logo1.png" alt=""></a>
+        <!--#2. Have at least two hypertext links pointing to either return to the top or to any other pages.-->
+        <!--#10.11. Create a navigation menu -->
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="gallery.html">Gallery</a></li>
+                <li> <a href="video_class.html">Video</a></li>
+               
+            </ul>
+        </nav>
+    </header>
 
-    </div>
-
-    <script>
-        function toggleNav() {
-            document.querySelector(".navbar").classList.toggle("navbar--open");
-        }
-    </script>
+    
 
 
     <div class="row">
       
         <div class="col-1-3">
-            <img src="img/cover2.jpg" alt="cover2"style="width: 450%;">
+            <img src="img/cover2.jpg" alt="cover2"style="width: 280%;">
         </div>
     </div>
 
@@ -57,11 +49,11 @@
                    
                 </div>
 
-                <div>
-                    <!--2.hypertext link-->
-                    <!--#10.11. Create a navigation menu -->
-                    <button type="button" onclick="toggleNav()">LEARN MORE</button>
+                
+                    <p>Reference</p>
                     
+                    <p>The pictures of angkor wat in cambodia. Retrieved from https://en.wikipedia.org/wiki/Angkor_Wat </p>  
+                    <p>© 2020 Getty Images. The Getty Images design is a trademark of Getty Images.Retrieved from https://www.gettyimages.com/</p>
                 </div>
             </div>
         </div>
